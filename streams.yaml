@@ -51,3 +51,13 @@ streams:
     description: ""
     labels: 
       - encoding: "json"
+      - encoding: "proto"
+      
+"polygon-mumbai-blockheader.streams.proxima.one":
+  description: rstrst
+  labels:
+    encoding: "json"
+    
+"v1.new-tokens.polygon-mumbai.fungible-token.streams.proxima.one":
+  labels:
+    encoding: "json"
