@@ -1,53 +1,59 @@
-streams: 
-  - name: "polygon-mumbai-blockheader.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v4.domain-events.eth-main.univ2.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v2.eth-main.gasprice.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v2.eth-main.fungible-token.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v2.eth-main.erc721.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v2.domain-events.univ2.eth-main.gen-dex-amm.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v2.domain-events.eth-main.univ3.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v1.new-tokens.eth-main.fungible-token.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v1.new-collections.eth-main.nft.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v0.exchange-rates.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v1.polygon-mumbai.gasprice.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v1.polygon-mumbai.fungible-token.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
-  - name: "v1.new-tokens.polygon-mumbai.fungible-token.streams.proxima.one"
-    description: ""
-    labels: 
-      - encoding: "json"
+polygon-mumbai-blockheader.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v4.domain-events.eth-main.univ2.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v2.eth-main.gasprice.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v2.eth-main.fungible-token.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v2.eth-main.erc721.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v2.domain-events.univ2.eth-main.gen-dex-amm.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v2.domain-events.eth-main.univ3.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v1.new-tokens.eth-main.fungible-token.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v1.new-collections.eth-main.nft.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v0.exchange-rates.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v1.polygon-mumbai.gasprice.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v1.polygon-mumbai.fungible-token.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"
+v1.new-tokens.polygon-mumbai.fungible-token.streams.proxima.one:
+  description: ""
+  labels: 
+    encoding: "json"    
+polygon-mumbai-blockheader.streams.proxima.one":
+  description: ""
+  labels:
+    encoding: "json"
+v1.new-tokens.polygon-mumbai.fungible-token.streams.proxima.one":
+  labels:
+    encoding: "json"
