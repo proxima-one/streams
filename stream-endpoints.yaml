@@ -1,2 +1,4 @@
 streams3.cluster.amur-dev.proxima.one:443:
   config: ""
+streams2.cluster.amur-dev.proxima.one:443:
+  config: ""
