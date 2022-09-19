@@ -7,4 +7,9 @@ describe("it works", () => {
     const yamlFile = YAML.parse(file)
     console.log(yamlFile)
   });
+  it("works!", () => {
+    const file = fs.readFileSync('./stream-endpoints.yaml', 'utf8')
+    const yamlFile = YAML.parse(file)
+    console.log(yamlFile)
+  });
 });
