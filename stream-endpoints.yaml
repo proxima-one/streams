@@ -1,2 +1,2 @@
-core-us-relayer.buh.apps.proxima.one:443:
-  config: ""
+buh:
+  endpoint: streams.buh.apps.proxima.one:443
