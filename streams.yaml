@@ -22,3 +22,15 @@ proxima.erc721.eth-main.events.1_0:
   description: "all erc721 events on eth-main"
   labels:
     encoding: "json"
+proxima.erc721.eth-goerli.events.1_0:
+  description: "all erc721 events on eth-goerli"
+  labels:
+    encoding: "json"
+proxima.erc721.polygon-main.events.1_0:
+  description: "all erc721 events on polygon-main"
+  labels:
+    encoding: "json"
+proxima.erc721.polygon-mumbai.events.1_0:
+  description: "all erc721 events on polygon-mumbai"
+  labels:
+    encoding: "json"
