@@ -18,3 +18,7 @@ proxima.erc20.eth-main.events.1_0:
   description: "all erc20 events on eth-main"
   labels:
     encoding: "json"
+proxima.erc721.eth-main.events.1_0:
+  description: "all erc721 events on eth-main"
+  labels:
+    encoding: "json"
