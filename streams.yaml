@@ -14,3 +14,7 @@ proxima.polygon-mumbai.blocks.1_0:
   description: "block headers of polygon mumbai testnet"
   labels:
     encoding: "json"
+proxima.erc20.eth-main.events.1_0:
+  description: "all erc20 events on eth-main"
+  labels:
+    encoding: "json"
