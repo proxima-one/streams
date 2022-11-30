@@ -34,3 +34,7 @@ proxima.erc721.polygon-mumbai.events.1_0:
   description: "all erc721 events on polygon-mumbai"
   labels:
     encoding: "json"
+proxima.mangrove.polygon-mumbai.domain-events.0_1:
+  description: "domain events emitted by mangrove smart contracts (multiple version) on polygon-mumbai"
+  labels:
+    encoding: "json"
