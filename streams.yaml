@@ -46,7 +46,27 @@ proxima.erc721.polygon-mumbai.events.1_0:
   description: "all erc721 events on polygon-mumbai"
   labels:
     encoding: "json"
+proxima.ft.eth-main.new-tokens.0_2:
+  description: "new erc20 tokens on eth-main"
+  labels:
+    encoding: "json"
+proxima.ft.eth-goerli.new-tokens.0_2:
+  description: "new erc20 tokens on eth-goerli"
+  labels:
+    encoding: "json"
+proxima.ft.polygon-main.new-tokens.0_2:
+  description: "new erc20 tokens on polygon-main"
+  labels:
+    encoding: "json"
+proxima.ft.polygon-mumbai.new-tokens.0_2:
+  description: "new erc20 tokens on polygon-mumbai"
+  labels:
+    encoding: "json"
 proxima.mangrove.polygon-mumbai.domain-events.0_1:
   description: "domain events emitted by mangrove smart contracts (multiple version) on polygon-mumbai"
+  labels:
+    encoding: "json"
+proxima.mangrove.polygon-mumbai.multi-user-strategies.0_1:
+  description: "mangrove strategies on polygon-mumbai"
   labels:
     encoding: "json"
