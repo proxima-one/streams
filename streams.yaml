@@ -70,3 +70,7 @@ proxima.mangrove.polygon-mumbai.multi-user-strategies.0_1:
   description: "mangrove strategies on polygon-mumbai"
   labels:
     encoding: "json"
+proxima.exchange-rates.0_1:
+  description: "exchange rates"
+  labels:
+    encoding: "json"
