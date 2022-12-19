@@ -66,7 +66,7 @@ proxima.mangrove.polygon-main.domain-events.0_1:
   description: "domain events emitted by mangrove smart contracts at 0x2f5a51b09044754c7c8b1a9dee29e046b5432038 on polygon-main"
   labels:
     encoding: "json"
-proxima.mangrove.polygon-mumbai.domain-events.0_1:
+proxima.mangrove.polygon-mumbai.domain-events.0_3:
   description: "domain events emitted by mangrove smart contracts (multiple version) on polygon-mumbai"
   labels:
     encoding: "json"
