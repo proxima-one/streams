@@ -89,11 +89,6 @@ proxima.mangrove.polygon-mumbai.tokens.0_1:
   labels:
     encoding: "json"
     legacy: true
-proxima.mangrove.polygon-mumbai.strategies.0_3:
-  description: "mangrove strategies smart contract events on polygon-mumbai"
-  labels:
-    encoding: "json"
-    legacy: true
     
 proxima.exchange-rates.0_1:
   description: "exchange rates"
