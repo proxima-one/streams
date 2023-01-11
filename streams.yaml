@@ -66,11 +66,19 @@ proxima.mangrove.polygon-main.tokens.0_1:
   labels:
     encoding: "json"       
 
-proxima.mangrove.polygon-mumbai.domain-events.0_5:
-  description: "domain events emitted by mangrove smart contracts (multiple version) on polygon-mumbai"
+proxima.mangrove.polygon-mumbai.0x8237.domain-events.0_1:
+  description: "domain events emitted by mangrove smart contract 0x823701dD29451766d5B9eF6b54ef42642F545cd7 on polygon-mumbai"
   labels:
     encoding: "json"
-proxima.mangrove.polygon-mumbai.tokens.0_2:
+proxima.mangrove.polygon-mumbai.0x8237.tokens.0_1:
+  description: "ERC20 tokens used by mangrove smart contracts on polygon-mumbai"
+  labels:
+    encoding: "json"
+proxima.mangrove.polygon-mumbai.0xf3e3.domain-events.0_1:
+  description: "domain events emitted by mangrove smart contract 0xF3e339d8a0B989114412fa157Cc846ebaf4BCbd8 on polygon-mumbai"
+  labels:
+    encoding: "json"
+proxima.mangrove.polygon-mumbai.0xf3e3.tokens.0_1:
   description: "ERC20 tokens used by mangrove smart contracts on polygon-mumbai"
   labels:
     encoding: "json"
@@ -78,7 +86,17 @@ proxima.mangrove.polygon-mumbai.strategies.0_4:
   description: "mangrove strategies smart contract events on polygon-mumbai"
   labels:
     encoding: "json"
-    
+
+proxima.mangrove.polygon-mumbai.domain-events.0_5:
+  description: "domain events emitted by mangrove smart contracts (multiple version) on polygon-mumbai"
+  labels:
+    encoding: "json"
+    legacy: true
+proxima.mangrove.polygon-mumbai.tokens.0_2:
+  description: "ERC20 tokens used by mangrove smart contracts on polygon-mumbai"
+  labels:
+    encoding: "json"
+    legacy: true    
 proxima.mangrove.polygon-mumbai.domain-events.0_3:
   description: "domain events emitted by mangrove smart contracts (multiple version) on polygon-mumbai"
   labels:
