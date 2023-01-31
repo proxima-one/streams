@@ -170,19 +170,19 @@ proxima.mangrove.polygon-mumbai.tokens.0_1:
     encoding: "json"
     legacy: true
 
-proxima.univ2.eth-main.gen-dex-amm.0_1:
+proxima.univ2.eth-main.gen-dex-amm.0_4:
   description: "Uniswap V2 exchange events in generic AMM DEX format"
   labels:
     encoding: "json"
-proxima.quickswap.polygon-main.gen-dex-amm.0_2:
+proxima.quickswap.polygon-main.gen-dex-amm.0_3:
   description: "Quickswap exchange events in generic AMM DEX format"
   labels:
     encoding: "json"
-proxima.univ3.eth-main.gen-dex-amm.0_1:
+proxima.univ3.eth-main.gen-dex-amm.0_2:
   description: "Uniswap V3 exchange events in generic AMM DEX format on eth-main"
   labels:
     encoding: "json"
-proxima.univ3.polygon-main.gen-dex-amm.0_1:
+proxima.univ3.polygon-main.gen-dex-amm.0_2:
   description: "Uniswap V2 exchange events in generic AMM DEX format on polygon-main"
   labels:
     encoding: "json"
