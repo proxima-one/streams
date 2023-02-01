@@ -1,4 +1,5 @@
-eth-main-blockheader0.new-runtime:
-  description: ""
-  labels: 
+contracts.*:
+  description: "generic smart contract logs"
+  labels:
     encoding: "json"
+    repo: "https://github.com/proxima-one/ops-community-streams"
