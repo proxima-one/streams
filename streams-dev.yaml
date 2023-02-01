@@ -3,3 +3,8 @@ contracts.*:
   labels:
     encoding: "json"
     repo: "https://github.com/proxima-one/ops-community-streams"
+
+proxima.*:
+  description: "all proxima streams"
+  labels:
+    encoding: "json"
