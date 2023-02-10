@@ -191,3 +191,8 @@ proxima.exchange-rates.0_1:
   description: "exchange rates"
   labels:
     encoding: "json"
+
+contracts.kalabukdima.number-board.eth-main.logs.0_1:
+  description: "Raw logs data from NumberBoard contract"
+  labels:
+    encoding: "json"
