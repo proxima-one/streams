@@ -14,46 +14,6 @@ proxima.polygon-mumbai.blocks.1_0:
   description: "block headers of polygon mumbai testnet"
   labels:
     encoding: "json"
-proxima.erc20.eth-main.events.1_0:
-  description: "all erc20 events on eth-main"
-  labels:
-    encoding: "json"
-    legacy: true
-proxima.erc20.eth-goerli.events.1_0:
-  description: "all erc20 events on eth-goerli"
-  labels:
-    encoding: "json"
-    legacy: true
-proxima.erc20.polygon-main.events.1_0:
-  description: "all erc20 events on polygon-main"
-  labels:
-    encoding: "json"
-    legacy: true
-proxima.erc20.polygon-mumbai.events.1_0:
-  description: "all erc20 events on polygon-mumbai"
-  labels:
-    encoding: "json"
-    legacy: true
-proxima.erc20.eth-main.events.2_0:
-  description: "all erc20 events on eth-main"
-  labels:
-    encoding: "proto"
-    "proto/schema": "https://raw.githubusercontent.com/proxima-one/stream-schemas/master/packages/ft/src/erc20/serdes/proto/schema.proto"
-proxima.erc20.eth-goerli.events.2_0:
-  description: "all erc20 events on eth-goerli"
-  labels:
-    encoding: "proto"
-    "proto/schema": "https://raw.githubusercontent.com/proxima-one/stream-schemas/master/packages/ft/src/erc20/serdes/proto/schema.proto"
-proxima.erc20.polygon-main.events.2_0:
-  description: "all erc20 events on polygon-main"
-  labels:
-    encoding: "proto"
-    "proto/schema": "https://raw.githubusercontent.com/proxima-one/stream-schemas/master/packages/ft/src/erc20/serdes/proto/schema.proto"
-proxima.erc20.polygon-mumbai.events.2_0:
-  description: "all erc20 events on polygon-mumbai"
-  labels:
-    encoding: "proto"
-    "proto/schema": "https://raw.githubusercontent.com/proxima-one/stream-schemas/master/packages/ft/src/erc20/serdes/proto/schema.proto"
 
 proxima.erc721.eth-main.events.1_0:
   description: "all erc721 events on eth-main"
