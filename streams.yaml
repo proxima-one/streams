@@ -135,7 +135,8 @@ proxima.exchange-rates.0_1:
   labels:
     encoding: "json"
 
-contracts.kalabukdima.number-board.eth-main.logs.0_1:
-  description: "Raw logs data from NumberBoard contract"
+contracts.*:
+  description: "Generic smart contract log stream. Managed by https://github.com/proxima-one/ops-community-streams"
   labels:
     encoding: "json"
+    repo: "https://github.com/proxima-one/ops-community-streams"
