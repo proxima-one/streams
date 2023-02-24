@@ -32,20 +32,25 @@ proxima.erc721.polygon-mumbai.events.2_0:
   labels:
     encoding: "proto"
 
-proxima.nft.eth-main.new-collections.1_0:
+proxima.nft.eth-main.new-collections.1_1:
   description: "new NFT collections on eth-main"
   labels:
     encoding: "json"
-proxima.nft.eth-goerli.new-collections.1_0:
+proxima.nft.eth-goerli.new-collections.1_1:
   description: "new NFT collections on eth-goerli"
   labels:
     encoding: "json"
-proxima.nft.polygon-main.new-collections.1_0:
+proxima.nft.polygon-main.new-collections.1_1:
   description: "new NFT collections on polygon-main"
   labels:
     encoding: "json"
-proxima.nft.polygon-mumbai.new-collections.1_0:
+proxima.nft.polygon-mumbai.new-collections.1_1:
   description: "new NFT collections on polygon-mumbai"
+  labels:
+    encoding: "json"
+
+proxima.ft.eth-main.new-tokens.1_1:
+  description: "new ERC20 contracts on eth-main"
   labels:
     encoding: "json"
 
