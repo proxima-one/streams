@@ -1,4 +1,6 @@
 buh:
   endpoint: streams.buh.apps.proxima.one:443
+  httpEndpoint: streams-rest.buh.apps.proxima.one
 buh-mirror:
   endpoint: streams-mirror.buh.apps.proxima.one:443
+  httpEndpoint: streams-mirror-rest.buh.apps.proxima.one
