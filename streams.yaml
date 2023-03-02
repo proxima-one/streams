@@ -2,16 +2,8 @@ proxima.eth-main.blocks.1_0:
   description: "block headers of ethereum mainnet"
   labels:
     encoding: "json"
-proxima.eth-goerli.blocks.1_0:
-  description: "block headers of ethereum goerli testnet"
-  labels:
-    encoding: "json"
 proxima.polygon-main.blocks.1_0:
   description: "block headers of polygon mainnet"
-  labels:
-    encoding: "json"
-proxima.polygon-mumbai.blocks.1_0:
-  description: "block headers of polygon mumbai testnet"
   labels:
     encoding: "json"
 
@@ -36,16 +28,8 @@ proxima.nft.eth-main.new-collections.1_1:
   description: "new NFT collections on eth-main"
   labels:
     encoding: "json"
-proxima.nft.eth-goerli.new-collections.1_1:
-  description: "new NFT collections on eth-goerli"
-  labels:
-    encoding: "json"
 proxima.nft.polygon-main.new-collections.1_1:
   description: "new NFT collections on polygon-main"
-  labels:
-    encoding: "json"
-proxima.nft.polygon-mumbai.new-collections.1_1:
-  description: "new NFT collections on polygon-mumbai"
   labels:
     encoding: "json"
 
