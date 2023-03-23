@@ -1,0 +1,9 @@
+proxima.polygon-main.blocks.1_0:
+  description: "polygon mainnet blocks"
+  labels:
+    encoding: "json"
+
+proxima.eth-goerli.blocks-sync.1_0:
+  description: "ethereum testnet blocks-sync"
+  labels:
+    encoding: "json"

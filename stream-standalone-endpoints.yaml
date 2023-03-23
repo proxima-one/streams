@@ -1,0 +1,3 @@
+buh-stage-standalone:
+  endpoint: streams-standalone.buh-stage.apps.proxima.one:443
+  httpEndpoint: streams-standalone-rest.buh-stage.apps.proxima.one
