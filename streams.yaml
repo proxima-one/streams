@@ -66,6 +66,14 @@ proxima.mangrove.polygon-main.0x2f5a.tokens.0_1:
   labels:
     encoding: "json"
 
+proxima.mangrove.polygon-mumbai.0xad90.domain-events.0_1:
+  description: "domain events emitted by mangrove smart contract 0xAd90a2a9BdcB630c976CaceA1253D89edf74da5e on polygon-mumbai"
+  labels:
+    encoding: "json"
+proxima.mangrove.polygon-mumbai.0xad90.tokens.0_1:
+  description: "ERC20 tokens used by mangrove smart contracts on polygon-mumbai"
+  labels:
+    encoding: "json"
 proxima.mangrove.polygon-mumbai.0x8237.domain-events.0_1:
   description: "domain events emitted by mangrove smart contract 0x823701dD29451766d5B9eF6b54ef42642F545cd7 on polygon-mumbai"
   labels:
