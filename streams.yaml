@@ -1,40 +1,49 @@
 proxima.eth-main.blocks.1_0:
-  description: "block headers of ethereum mainnet"
+  description: "block headers of Ethereum mainnet"
+  labels:
+    encoding: "json"
+proxima.eth-goerli.blocks.1_0:
+  description: "block headers of Ethereum Goerli testnet"
   labels:
     encoding: "json"
 proxima.polygon-main.blocks.1_0:
-  description: "block headers of polygon mainnet"
+  description: "block headers of Polygon mainnet"
+  labels:
+    encoding: "json"
+proxima.polygon-mumbai.blocks.1_0:
+  description: "block headers of Polygon Mumbai testnet"
   labels:
     encoding: "json"
 
-proxima.erc721.eth-main.events.2_0:
-  description: "all erc721 events on eth-main"
-  labels:
-    encoding: "proto"
-proxima.erc721.eth-goerli.events.2_0:
-  description: "all erc721 events on eth-goerli"
-  labels:
-    encoding: "proto"
-proxima.erc721.polygon-main.events.2_0:
-  description: "all erc721 events on polygon-main"
-  labels:
-    encoding: "proto"
-proxima.erc721.polygon-mumbai.events.2_0:
-  description: "all erc721 events on polygon-mumbai"
-  labels:
-    encoding: "proto"
+# proxima.erc721.eth-main.events.2_0:
+#   description: "all erc721 events on eth-main"
+#   labels:
+#     encoding: "proto"
+# proxima.erc721.eth-goerli.events.2_0:
+#   description: "all erc721 events on eth-goerli"
+#   labels:
+#     encoding: "proto"
+# proxima.erc721.polygon-main.events.2_0:
+#   description: "all erc721 events on polygon-main"
+#   labels:
+#     encoding: "proto"
+# proxima.erc721.polygon-mumbai.events.2_0:
+#   description: "all erc721 events on polygon-mumbai"
+#   labels:
+#     encoding: "proto"
 
 proxima.nft.eth-main.new-collections.1_1:
   description: "new NFT collections on eth-main"
   labels:
     encoding: "json"
-proxima.nft.polygon-main.new-collections.1_1:
-  description: "new NFT collections on polygon-main"
-  labels:
-    encoding: "json"
 
 proxima.ft.eth-main.new-tokens.1_1:
   description: "new ERC20 contracts on eth-main"
+  labels:
+    encoding: "json"
+
+proxima.tokens.eth-main.contracts.2_0:
+  description: "new ERC20 and ERC721 contracts on eth-main"
   labels:
     encoding: "json"
 
@@ -73,8 +82,8 @@ proxima.exchange-rates.0_1:
   labels:
     encoding: "json"
 
-contracts.*:
-  description: "Generic smart contract log stream. Managed by https://github.com/proxima-one/ops-community-streams"
-  labels:
-    encoding: "json"
-    repo: "https://github.com/proxima-one/ops-community-streams"
+# contracts.*:
+#   description: "Generic smart contract log stream. Managed by https://github.com/proxima-one/ops-community-streams"
+#   labels:
+#     encoding: "json"
+#     repo: "https://github.com/proxima-one/ops-community-streams"
