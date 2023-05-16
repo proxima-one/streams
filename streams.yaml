@@ -72,7 +72,17 @@ proxima.mangrove.polygon-mumbai.strategies.0_5:
   description: "mangrove strategies smart contract events on polygon-mumbai"
   labels:
     encoding: "json"
+    legacy: true
+proxima.mangrove.polygon-mumbai.0xad90.0xf511.strategies.0_1:
+  description: "mangrove strategies smart contract events for Mangrove Order 0xF511135Bc98D7a5cf694Fa6751322de93e2135dA"
+  labels:
+    encoding: "json"
 proxima.mangrove.polygon-mumbai.0xad90.kandel.0_1:
+  description: "mangrove kandel smart contract events on polygon-mumbai"
+  labels:
+    encoding: "json"
+    legacy: true
+proxima.mangrove.polygon-mumbai.0xad90.kandel.0_2:
   description: "mangrove kandel smart contract events on polygon-mumbai"
   labels:
     encoding: "json"
