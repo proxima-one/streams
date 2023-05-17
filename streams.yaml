@@ -15,10 +15,17 @@ proxima.polygon-mumbai.blocks.1_0:
   labels:
     encoding: "json"
 
-# proxima.erc721.eth-main.events.2_0:
-#   description: "all erc721 events on eth-main"
-#   labels:
-#     encoding: "proto"
+proxima.erc20.eth-main.events.2_0:
+  description: "all ERC20 events on eth-main"
+  labels:
+    encoding: "proto"
+    "proto/schema": "https://raw.githubusercontent.com/proxima-one/stream-schemas/master/packages/ft/src/erc20/serdes/proto/schema.proto"
+
+proxima.erc721.eth-main.events.2_0:
+  description: "all ERC721 events on eth-main"
+  labels:
+    encoding: "proto"
+    "proto/schema": "https://raw.githubusercontent.com/proxima-one/stream-schemas/master/packages/nft/src/erc721/serdes/proto/schema.proto"
 # proxima.erc721.eth-goerli.events.2_0:
 #   description: "all erc721 events on eth-goerli"
 #   labels:
