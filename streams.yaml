@@ -114,3 +114,9 @@ contracts.mangrove.mangrove-oracle.polygon-mumbai.logs.0_1:
   labels:
     encoding: "json"
     repo: "https://github.com/proxima-one/ops-community-streams"
+    legacy: true
+contracts.mangrove.mangrove-oracle.polygon-mumbai.logs.0_2:
+  description: "Smart contract logs of contract 0x8F8ff080cA0554b02BFC36A5aD465954416271eF"
+  labels:
+    encoding: "json"
+    repo: "https://github.com/proxima-one/ops-community-streams"
