@@ -1,6 +1,6 @@
-buh-standalone:
-  endpoint: streams-standalone.buh.apps.proxima.one:443
-  httpEndpoint: streams-standalone-rest.buh.apps.proxima.one
-buh-fat:
-  endpoint: streams-fat.buh.apps.proxima.one:443
-  httpEndpoint: streams-fat-rest.buh.apps.proxima.one
+buh:
+  endpoint: streams.buh.apps.proxima.one:443
+  httpEndpoint: streams-rest.buh.apps.proxima.one
+buh-mirror:
+  endpoint: streams-mirror.buh.apps.proxima.one:443
+  httpEndpoint: streams-mirror-rest.buh.apps.proxima.one
