@@ -10,6 +10,10 @@ proxima.polygon-main.blocks.1_0:
   description: "block headers of Polygon mainnet"
   labels:
     encoding: "json"
+proxima.polygon-main.blocks.1_1:
+  description: "block headers of Polygon mainnet starting from May 2023"
+  labels:
+    encoding: "json"
 proxima.polygon-mumbai.blocks.1_0:
   description: "block headers of Polygon Mumbai testnet"
   labels:
