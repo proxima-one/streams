@@ -48,10 +48,15 @@ proxima.polygon-mumbai.blocks.1_0:
 #   labels:
 #     encoding: "json"
 
-# proxima.ft.eth-main.new-tokens.1_1:
-#   description: "new ERC20 contracts on eth-main"
-#   labels:
-#     encoding: "json"
+proxima.ft.eth-main.new-tokens.1_1:
+  description: "new ERC20 contracts on eth-main"
+  labels:
+    encoding: "json"
+
+proxima.ft.polygon-mumbai.new-tokens.1_1:
+  description: "new ERC20 contracts on polygon-mumbai"
+  labels:
+    encoding: "json"
 
 proxima.tokens.eth-main.contracts.2_0:
   description: "new ERC20 and ERC721 contracts on eth-main"
